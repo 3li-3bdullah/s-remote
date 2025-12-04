@@ -1,0 +1,27 @@
+﻿"Charge Log Statistics Report"
+"Date Range: 2025-11-26 to 2025-12-03"
+"Generated: 2025-12-04 21:21:24"
+
+"=== OVERALL STATISTICS ==="
+"Total Records","Total Charged","Total Failed","Success Rate"
+"3,507,870","68,664","3,439,184",1.96%
+
+"=== DAILY STATISTICS ==="
+Date,"Total Records",Charged,Failed,"Success Rate","Failure Rate"
+2025-12-03,"174,426","4,187","170,239",2.4%,97.6%
+2025-12-02,"430,693","8,133","422,560",1.89%,98.11%
+2025-12-01,"750,364","22,215","728,149",2.96%,97.04%
+2025-11-30,"336,715","4,666","332,028",1.39%,98.61%
+2025-11-29,"313,655","6,245","307,410",1.99%,98.01%
+2025-11-28,"544,629","9,133","535,496",1.68%,98.32%
+2025-11-27,"551,657","8,816","542,840",1.6%,98.4%
+2025-11-26,"405,731","5,269","400,462",1.3%,98.7%
+
+"=== TOP 10 FAILURE REASONS ==="
+Rank,"Transaction Details","Failure Count","Percentage of Total Failures"
+1,"Insufficient account balance.","3,388,024",98.51%
+2,"Authentication failed.","49,370",1.44%
+3,"Please check MSISDN format.","1,527",0.04%
+4,"The platform reached the maximum TPS...",245,0.01%
+5,"The specified end user is unknown in the credit-control server.",12,0%
+6,"This MSISDN is blocked for any VAS subscription, please remove it from any VAS subscription list.",6,0%
